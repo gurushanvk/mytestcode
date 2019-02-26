@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32375" started-at="2019-02-26T07:54:43Z" finished-at="2019-02-26T07:55:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32375" started-at="2019-02-26T07:54:43Z" finished-at="2019-02-26T07:55:15Z">
+      <class name="testPackage.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testPackage.NewTest@66d33a]" name="beforeClass" is-config="true" duration-ms="9096" started-at="2019-02-26T13:24:43Z" finished-at="2019-02-26T13:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="extentReporter()[pri:0, instance:testPackage.NewTest@66d33a]" name="extentReporter" is-config="true" duration-ms="143" started-at="2019-02-26T13:24:52Z" finished-at="2019-02-26T13:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReporter -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testPackage.NewTest@66d33a]" name="test1" duration-ms="22459" started-at="2019-02-26T13:24:52Z" finished-at="2019-02-26T13:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="closeExtentReport()[pri:0, instance:testPackage.NewTest@66d33a]" name="closeExtentReport" is-config="true" duration-ms="661" started-at="2019-02-26T13:25:14Z" finished-at="2019-02-26T13:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtentReport -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testPackage.NewTest@66d33a]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-26T13:25:14Z" finished-at="2019-02-26T13:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testPackage.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
