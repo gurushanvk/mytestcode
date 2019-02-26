@@ -14,6 +14,7 @@ public class FindFlight {
 	
 	public FindFlight(WebDriver BrowserHandle) {
 		this.BrowserHandle = BrowserHandle;
+		System.out.println("Hi All");
 	}
 	
 	public void findaflight() {
