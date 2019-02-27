@@ -26,11 +26,15 @@ public class NewTest {
 		
 		Login logintest = new Login(BrowserHandle);
 		logintest.loginfunc("mercury", "mercury");
-		logger.log(LogStatus.PASS, "Wonderfully passed");
+		logger.log(LogStatus.PASS, "Wonderfully passed1");
 		
 		FindFlight findflight1 = new FindFlight(BrowserHandle);
 		findflight1.findaflight();	
-		logger.log(LogStatus.PASS, "Wonderfully passed");
+		logger.log(LogStatus.PASS, "Wonderfully passed2");
+		
+		selectAFlight selectflight1 = new  selectAFlight(BrowserHandle);
+		selectflight1.selectflightandContinue();
+		logger.log(LogStatus.PASS, "Wonderfully passed3");
   }
   
   @BeforeClass
